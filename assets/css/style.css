@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    min-height: 100%;
+}
+
+.principal {
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: antiquewhite;
+    min-height: 0%;
+}
+
+.principal img {
+    width: 450px;
+    border-radius: 5%;
+}
+
+.principal h2 {
+    font-size: 45px; 
+    font-weight:bold; 
+
+}
+.texto_entrada {
+    font-size: 20px;
+    font-weight: 500; /* Medium */
+}
+.destacado {
+    font-weight: bold;
+}
+
+.contactos {
+    flex: 3;
+    padding: 30px 0 30px 0;
+    width: 260px;
+    border-right: 2px solid #E8EBE4;
+}
+
+.contactos nav {
+    display: flex;
+    justify-content: space-between;
+    border-color: #E8EBE4;
+    padding: 15px;
+    padding-top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contactos nav .perfil {
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contactos nav .perfil img {
+    width: 65px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 4px solid #E8EBE4;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.contactos nav .perfil .info {
+    padding: 0 0 0 20px;
+    width: calc(100% - 60px - 40px - 20px);
+    padding: 10px;
+    padding-left: 5px;
+}
+
+
+
+.contactos nav .perfil .info p {
+    color: #a8a8a8;
+}
+.contactos nav .perfil .info .Maria {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.contactos .contacto {
+    display: flex;
+    min-height: 70px;
+    padding: 15px;
+    border-bottom: 2px solid #E8EBE4;
+}
+
+.contactos .contacto img {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 5px;
+    border: 4px solid #E8EBE4;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.contactos .contacto .info {
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    text-align: left;
+    padding: 10px;
+    padding-left: 20px;
+    width: calc(100% - 60px - 40px - 20px);
+}
+
+.contactos .contacto .info h3 {
+    font-size: 20px; /* Tamaño para los nombres de contactos */
+    font-weight: normal; /* Retirando el negrito de los nombres de contactos */
+}
+
+.contactos .contacto .info p {
+    font-size: 16px; 
+}
+
+.nuevo_chat {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 140px;
+    margin: 0;
+    border-top: 2px solid #E8EBE4;
+    border-bottom: 2px solid #E8EBE4;
+}
+
+.nuevo_chat button {
+    border-color: #a491d2;
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: #a491d2;
+    color: white;
+    font-size: 30px; /* Tamaño para "Nuevo Chat" */
+
+}
+
+.contactos nav .items {
+    display: flex;
+    align-items: center;
+}
+
+.contactos nav .items i {
+    padding: 5px;
+    color: #a8a8a8;
+}
